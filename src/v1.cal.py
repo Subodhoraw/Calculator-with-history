@@ -42,7 +42,7 @@ def main():
     history = []
     while True:
         print_menu()
-        choice = input("Select operation (1-7): ").strip()
+        choice = input("Select operation (1-7): ").strip() #.strp() to remove extra spaces
         if choice == "7":
             print("Goodbye.")
             break
